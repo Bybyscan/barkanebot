@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #28a745;
+    --error-color: #dc3545;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+.event-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.invalid {
+    border-color: var(--error-color) !important;
+}
+
+.date-range {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+    .date-range {
+        grid-template-columns: 1fr;
+    }
+}
