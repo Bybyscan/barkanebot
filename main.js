@@ -1,5 +1,5 @@
-# Оптимизированный JavaScript (js/main.js):
-#
+// Оптимизированный JavaScript (js/main.js):
+// @Bybyscan 2024
 // Управление чекбоксами
 function setupCheckboxes() {
     const checkboxes = {
